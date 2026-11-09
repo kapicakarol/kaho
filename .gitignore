@@ -1,0 +1,27 @@
+# ===== SECRETS — never commit =====
+.secrets/
+.env
+.env.local
+.env.*.local
+
+# dependencies / build
+node_modules/
+dist/
+.vite/
+*.log
+
+# os / editor / narzędzia lokalne
+.claude/
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# supabase cli
+supabase/.branches
+supabase/.temp
+
+# user-supplied (licensed) audio — not for git
+public/music/*.mp3
+public/music/*.ogg
+public/music/*.wav

@@ -1,0 +1,10 @@
+{
+  "name": "Kaho",
+  "short_name": "Kaho",
+  "description": "Quizy na żywo. Dołącz kodem PIN.",
+  "start_url": "/join",
+  "display": "standalone",
+  "background_color": "#121211",
+  "theme_color": "#121211",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
